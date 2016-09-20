@@ -1,0 +1,20 @@
+{
+  "name": "raml-json-validation",
+  "version": "0.0.2",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dreamflyer/raml-json-validation.git"
+  },
+  "typings": "./dist/index.d.ts",
+  "dependencies": {
+    "z-schema": "^3.16.1"
+  },
+  "devDependencies": {
+    "typescript": "1.8.7",
+    "rimraf": "*"
+  }
+}

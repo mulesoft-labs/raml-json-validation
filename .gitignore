@@ -1,0 +1,16 @@
+/node_modules
+
+/src/**/*.js
+/src/**/*.js.map
+/src/**/*.d.ts
+
+/.idea
+
+*.iml
+
+/typings/
+
+/dist/
+
+.project
+.settings
