@@ -6,7 +6,7 @@ export class JSONValidator {
     private validator = new ZSchema();
 
     setRemoteReference(reference: string, content: any): void {
-        this.validator.setRemoteReference(content);
+        this.validator.setRemoteReference(reference, content);
     }
 
     validateSchema(jsonSchema: any): void {
