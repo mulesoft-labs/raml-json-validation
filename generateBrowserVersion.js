@@ -27,7 +27,7 @@ function webPackForBrowserLib() {
         output: {
             path: path.resolve(__dirname, "./browser_version"),
 
-            library: ['RAML.XmlValidation'],
+            library: ['RAML.JsonValidation'],
 
             filename: 'index.js',
             libraryTarget: "umd"
