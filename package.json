@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && tsc",
-    "buildBrowserPublish": "node generateBrowserVersion.js"
+    "buildBrowserPublishNpm": "node generateBrowserVersion.js --type 'npm'"
   },
   "repository": {
     "type": "git",
