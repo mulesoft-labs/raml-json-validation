@@ -3,7 +3,9 @@ declare function require(arg: string): any;
 var ZSchema = require('z-schema');
 
 export class JSONValidator {
-    private validator = new ZSchema();
+    private validator = new ZSchema({
+        ignoreUnknownFormats: true
+    });
 
     setRemoteReference(reference: string, content: any): void {
         this.validator.setRemoteReference(reference, content);
