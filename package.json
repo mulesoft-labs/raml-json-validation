@@ -1,6 +1,6 @@
 {
   "name": "raml-json-validation",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && tsc",
