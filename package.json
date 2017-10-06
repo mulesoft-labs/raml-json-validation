@@ -13,12 +13,12 @@
   },
   "typings": "./dist/index.d.ts",
   "dependencies": {
-    "z-schema": "^3.16.1"
+    "z-schema": "^3.18.4"
   },
   "devDependencies": {
     "typescript": "2.5.2",
     "rimraf": "*",
-    "json-loader": "^0.5.1",
+    "json-loader": "^0.5.7",
     "webpack": "1.4.2"
   }
 }
