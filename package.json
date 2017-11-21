@@ -19,6 +19,6 @@
     "typescript": "2.5.2",
     "rimraf": "*",
     "json-loader": "0.5.7",
-    "webpack": "1.4.2"
+    "webpack": "1.15.0"
   }
 }
