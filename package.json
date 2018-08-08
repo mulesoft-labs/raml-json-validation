@@ -1,6 +1,6 @@
 {
   "name": "raml-json-validation",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && tsc",
@@ -13,7 +13,7 @@
   },
   "typings": "./dist/index.d.ts",
   "dependencies": {
-    "z-schema": "3.18.4"
+    "z-schema": "~3.21.0"
   },
   "devDependencies": {
     "typescript": "2.5.2",
