@@ -1,6 +1,6 @@
 {
   "name": "raml-json-validation",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "main": "dist/index.js",
   "license": "Apache-2.0",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "typings": "./dist/index.d.ts",
   "dependencies": {
-    "z-schema": "3.18.4"
+    "z-schema": "~3.21.0"
   },
   "devDependencies": {
     "typescript": "2.5.2",
