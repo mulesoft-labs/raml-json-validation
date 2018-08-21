@@ -8,6 +8,4 @@ notifications:
 node_js:
   - "4.0"
 
-before_script: npm run devInstall
-
-script: npm run buildall
+script: npm run build
