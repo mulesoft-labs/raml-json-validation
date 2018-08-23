@@ -16,7 +16,7 @@
     "z-schema": "3.21.0"
   },
   "devDependencies": {
-    "typescript": "2.5.2",
+    "typescript": "2.8.4",
     "rimraf": "*",
     "json-loader": "0.5.7",
     "webpack": "1.15.0"
