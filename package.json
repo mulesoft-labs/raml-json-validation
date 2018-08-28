@@ -1,6 +1,6 @@
 {
   "name": "raml-json-validation",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "main": "dist/index.js",
   "license": "Apache-2.0",
   "scripts": {
@@ -17,7 +17,7 @@
     "z-schema": "3.21.0"
   },
   "devDependencies": {
-    "typescript": "2.5.2",
+    "typescript": "3.0.1",
     "rimraf": "*",
     "json-loader": "0.5.7",
     "webpack": "1.15.0"
